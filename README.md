@@ -7,9 +7,6 @@ Before you get going make sure you have installed Node.
 
 We recommend [nvm](https://github.com/creationix/nvm) for managing multiple versions of Node on one machine.
 
-If you prefer to [install Node manually](https://nodejs.org/en/),
-check the [.nvmrc](https://github.com/guardian/guui/blob/master/.nvmrc) for the current required version.
-
 ### http-server
 
 To run the challenge on your localhost you'll need to install the dependency `http-server` globally:
