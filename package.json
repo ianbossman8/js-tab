@@ -1,0 +1,15 @@
+{
+  "name": "clientside-tabs-challenge",
+  "version": "1.0.0",
+  "description": "Guardian Clientside Tabs Challenge",
+  "main": "index.js",
+  "repository": {
+    "url": "",
+    "type": "git"
+  },
+  "dependencies": {
+    "http-server": "0.11.1"
+  },
+  "author": "Your Name <you@example.com>",
+  "license": "MIT"
+}
