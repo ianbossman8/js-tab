@@ -1,0 +1,25 @@
+body {
+    color: #000;
+}
+
+.tab-panel-container {
+    padding: 10px 0;
+    max-width: 600px;
+}
+
+.tab {
+    padding: 10px;
+    color: #000;
+    background-color: #ededed;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.list-item {
+    padding: 10px 0;
+    border-top: 1px solid #ededed;
+}
+
+.list-item span {
+    font-weight: bold;
+}
