@@ -5,7 +5,7 @@
 
 Before you get going make sure you have installed Node.
 
-We recommend [nvm](https://github.com/creationix/nvm) (especially combined with [this handy gist](https://gist.github.com/sndrs/5940e9e8a3f506b287233ed65365befb)). It is great at managing multiple versions of Node on one machine.
+We recommend [nvm](https://github.com/creationix/nvm) for managing multiple versions of Node on one machine.
 
 If you prefer to [install Node manually](https://nodejs.org/en/),
 check the [.nvmrc](https://github.com/guardian/guui/blob/master/.nvmrc) for the current required version.
