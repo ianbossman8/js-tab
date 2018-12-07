@@ -50,11 +50,11 @@ A great deal of web content can be made accessible just by making sure the corre
 
 #### Browser support
 
-Our site uses modern web standards to give the best possible reading experience for our visitors. Although we aim to be readable on all possible devices and browsers, not all are capable of running the full set of features. We'd like you to make sure the application works on older browsers as well as the latest browsers. Our [reccommended browser list](https://www.theguardian.com/help/recommended-browsers) states the browsers we currently support.
+Our site uses modern web standards to give the best possible reading experience for our visitors. Although we aim to be readable on all possible devices and browsers, not all are capable of running the full set of features. We'd like you to make sure your application works on older browsers as well as the latest browsers. Our [reccommended browser list](https://www.theguardian.com/help/recommended-browsers) states the browsers we currently support.
 
 #### No JavaScript
 
-We can't assume our JavaScript will run for all our users, for example some may  not run Javascript for accessibility reasons, others may be accessing our site in constrained environments in which our JavaScript cannot run. We'd like you to make sure your application offers a meaningful experience when JavaScript is unavailable.
+We can't assume our JavaScript will run for all our users, for example some may not run Javascript for accessibility reasons and others may be accessing our site in constrained environments in which our JavaScript cannot run. We'd like you to make sure your application offers a meaningful experience when JavaScript is unavailable.
 
 #### Test coverage
 
