@@ -46,7 +46,7 @@ At the Guardian we try to build things to be lightweight, accessible, and usable
 
 #### Accessibility
 
-A great deal of web content can be made accessible just by making sure the correct HTML elements are used for the correct purpose at all times. We'd like you consider how the HTML can be used to ensure maximum accessibility for ours user's that rely on screen reading technology and/or keyboard navigation to access our content.
+A great deal of web content can be made accessible just by making sure the correct HTML elements are used for the correct purpose at all times. We'd like you consider how the HTML can be used to ensure maximum accessibility for our user's that rely on screen reading technology and/or keyboard navigation to access our content.
 
 #### Browser support
 
@@ -62,4 +62,4 @@ A good suite of tests for your code can give you and your colleagues confidence 
 
 #### Reusability
 
-We'd like you to consider how your code code be recomposable into new solutions whilst retaining it's internal implementation details.
+We'd like you to consider how your code could be recomposable into new solutions whilst retaining it's internal implementation details.
