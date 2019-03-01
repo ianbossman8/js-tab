@@ -1,26 +1,8 @@
 # Clientside Tabs Challenge
 
-## Setup
+Thanks for your interest in applying for the role. We’d like you to complete a coding task to see your coding approach, learn how you structure a solution and see what you can do when allowed to be creative.
 
-### Node
-
-Before you get going make sure you have installed Node.
-
-We recommend [nvm](https://github.com/creationix/nvm) for managing multiple versions of Node on one machine.
-
-### http-server
-
-To run the challenge on your localhost you'll need to install the dependency `http-server` globally:
-
-`npm install -g http-server`
-
-Once you've installed this you can run the command `npm run start` and open `http://localhost:8000` in your browser.
-
-## Instructions
-
-Thanks for your interest in applying for the role. We’d like you to complete a coding task to see your coding approach, learn how you structure a solution and see what kind of things you can do when allowed to be creative.
-
-We’ve set the deadline at two hours: we’re interested in how you would build a production-ready feature. Two hours may not be long enough to finish. Your code will be the starting point for a conversation about your choices, what you prioritised and any next-steps you’d take. Feel free to use comments or add a readme.
+We’ve set the deadline at **two hours**: we’re interested in how you would build a production-ready feature. Two hours may not be long enough to finish. Your code will be the starting point for a conversation about your choices, what you prioritised and any next-steps you’d take. Feel free to use comments and explain your main decisions in a README.
 
 ## The exercise
 

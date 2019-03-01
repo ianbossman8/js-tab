@@ -7,8 +7,5 @@
     "url": "https://github.com/guardian/clientside-tabs-challenge",
     "type": "git"
   },
-  "scripts": {
-    "start": "http-server -a localhost -p 8000 -c-1"
-  },
   "license": "MIT"
 }
