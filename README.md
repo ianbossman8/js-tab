@@ -27,28 +27,28 @@ You should implement a **tabbed component** that looks similar to the Guardianâ€
 
 You should fetch this data asynchronously from our [Content API](https://open-platform.theguardian.com/explore/). **Please do this on the client-side.** Your solution should run in the browser alone with no server-side requirements.
 
-### Considerations
+## Considerations
 
 At the Guardian we try to build things to be lightweight, accessible, and usable across browsers, devices and network conditions. 
 
 During implemetation, please choose 2 or 3 of the below considerations to focus on. Let us know which ones you have chosen in your repo's README.
 
-#### Accessibility
+### Accessibility
 
 A great deal of web content can be made accessible simply by using semantically correct HTML elements and role attributes. We'd like you to ensure the component is accessible for our users that rely on screen reading technology or keyboard navigation to access our content.
 
-#### Browser support
+### Browser support
 
 Our site uses modern web standards to provide the best possible reading experience for our visitors. Although we aim to be readable on all possible devices and browsers, not all are capable of running the full set of features. We'd like you to make sure your application works on older browsers as well as the latest browsers. Our [recommended browser list](https://www.theguardian.com/help/recommended-browsers) states the browsers we currently support.
 
-#### No JavaScript
+### No JavaScript
 
 We can't assume our JavaScript will run for all our users, for example some may not run Javascript for accessibility reasons and others may be accessing our site in constrained environments in which our JavaScript cannot run. We'd like you to make sure your application offers a meaningful experience when JavaScript is unavailable.
 
-#### Test coverage
+### Test coverage
 
 A good suite of tests for your code can give you and your colleagues confidence that no bugs have been introduced when refactoring or adding new features. We'd like you to write tests for your code that can be easily run by anyone working on it.
 
-#### Reusability
+### Reusability
 
 We'd like you to consider how your code could be recomposable into new solutions whilst retaining its internal implementation details.
