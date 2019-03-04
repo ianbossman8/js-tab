@@ -6,7 +6,7 @@ We’d like you to complete a coding task to demonstrate your coding approach, h
 
 We’ve set the deadline for this exercise at **two hours**. We’re interested in how you would start building a production-ready feature. Two hours may not be long enough to finish. 
 
-After submitting your code, you will be invited to our offices to discuss your choices, what you prioritised and the next steps you’d take. Your code will be **the starting point for a conversation**, and it will be helpful if you could briefly highlight reasons for  your architectural choices in a README in your repo.
+After submitting your code, you will be invited to our offices to review your choices, what you prioritised and the next steps you’d take. Your code will be **the starting point for a conversation**, and it will be helpful if you could briefly highlight reasons for  your architectural choices in a README in your repo.
 
 ## The rules
 
@@ -23,19 +23,23 @@ These frameworks make it difficult for us to assess your code fairly.
 
 Inside this repo is an incomplete **tabbed component**. We'd like you to update it to meet the requirements listed below. 
 
-You should implement a **tabbed component** that looks similar to the Guardian’s most recent content widget. The component will be a numbered listing of the most recent Guardian content chosen from three sections of the site: UK news, Football and Travel. Each of these sections should be represented by a tab.
+You should implement a **tabbed component** that looks similar to the Guardian’s most recent content widget. You’ve no doubt seen one before, but just to be clear, here’s something similar to what you're aiming for:
 
-You should fetch this data asynchronously from our [Content API](https://open-platform.theguardian.com/explore/). **Please do this on the client-side.** Your solution should run in the browser alone with no server-side requirements.
+![Screenshot of a tabbed component](/tabbed-component.png)
+
+The component will be a numbered listing of the most recent Guardian content chosen from three sections of the site: UK news, Football and Travel. Each of these sections should be represented by a tab.
+
+You should fetch this data asynchronously from our [Content API](https://open-platform.theguardian.com/explore/). **Please do this on the client-side.** Your solution should run in the browser alone with no runtime server-side requirements (excluding any tooling needed to build your code).
 
 ## Considerations
 
 At the Guardian we try to build things to be lightweight, accessible, and usable across browsers, devices and network conditions. 
 
-During implemetation, please choose 2 or 3 of the below considerations to focus on. Let us know which ones you have chosen in your repo's README.
+During implemetation, please choose 2 or 3 of the below considerations to focus on. Let us know which ones you have chosen in your repo's README. We will discuss all 5 considerations at the review stage.
 
 ### Accessibility
 
-A great deal of web content can be made accessible simply by using semantically correct HTML elements and role attributes. We'd like you to ensure the component is accessible for our users that rely on screen reading technology or keyboard navigation to access our content.
+A great deal of web content can be made accessible simply by using semantically correct HTML elements and role attributes. We'd like you to ensure the component is accessible for our readers that rely on screen reading technology or keyboard navigation to access our content.
 
 ### Browser support
 
@@ -43,7 +47,7 @@ Our site uses modern web standards to provide the best possible reading experien
 
 ### No JavaScript
 
-We can't assume our JavaScript will run for all our users, for example some may not run Javascript for accessibility reasons and others may be accessing our site in constrained environments in which our JavaScript cannot run. We'd like you to make sure your application offers a meaningful experience when JavaScript is unavailable.
+We can't assume our JavaScript will run for all our readers, for example some may not run Javascript for accessibility reasons and others may be accessing our site in constrained environments in which our JavaScript cannot run. We'd like you to make sure your application offers a meaningful experience when JavaScript is unavailable.
 
 ### Test coverage
 
