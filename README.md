@@ -1,65 +1,58 @@
 # Clientside Tabs Challenge
 
-## Setup
+Thanks for your interest in applying for the Client Side Developer role at the Guardian. 
 
-### Node
+We’d like you to complete a coding task to demonstrate your coding approach, how you structure a solution and what you can do when you are allowed to be creative.
 
-Before you get going make sure you have installed Node.
+We’ve set the deadline for this exercise at **two hours**. We’re interested in how you would start building a production-ready feature. Two hours may not be long enough to finish. 
 
-We recommend [nvm](https://github.com/creationix/nvm) for managing multiple versions of Node on one machine.
+After submitting your code, you will be invited to our offices to review your choices, what you prioritised and the next steps you’d take. Your code will be **the starting point for a conversation**, and it will be helpful if you could briefly highlight reasons for  your architectural choices in a README in your repo.
 
-### http-server
+## The rules
 
-To run the challenge on your localhost you'll need to install the dependency `http-server` globally:
+When completing this challenge, we encourage you to use vanilla JavaScript, HTML and CSS. You are free to use appropriate modern JavaScript libraries, build tooling and boilerplates if you prefer. 
 
-`npm install -g http-server`
+However, please don't use:
 
-Once you've installed this you can run the command `npm run start` and open `http://localhost:8000` in your browser.
+- the Angular framework
+- any CSS framework such as Bootstrap or Material Design
 
-## Instructions
-
-Thanks for your interest in applying for the role. We’d like you to complete a coding task to see your coding approach, learn how you structure a solution and see what kind of things you can do when allowed to be creative.
-
-We’ve set the deadline at two hours: we’re interested in how you would build a production-ready feature. Two hours may not be long enough to finish. Your code will be the starting point for a conversation about your choices, what you prioritised and any next-steps you’d take. Feel free to use comments or add a readme.
+These frameworks make it difficult for us to assess your code fairly.
 
 ## The exercise
 
-Inside this repo is an incomplete **tabbed component**. We'd like you to pick up this piece of work and update it so it meets the requirements listed below.
+Inside this repo is an incomplete **tabbed component**. We'd like you to update it to meet the requirements listed below. 
 
-## Requirements
+You should implement a **tabbed component** that looks similar to the Guardian’s most recent content widget. You’ve no doubt seen one before, but just to be clear, here’s something similar to what you're aiming for:
 
-The requirements have been split into manadatory and optional groups. Please take time to read the requirements carefully. We'd like you to have a go at achieving the mandatory requirements and if you have the time you can then choose 2 optional requirements to focus on.
+![Screenshot of a tabbed component](/tabbed-component.png)
 
-### Mandatory requirements
+The component will be a numbered listing of the most recent Guardian content chosen from three sections of the site: UK news, Football and Travel. Each of these sections should be represented by a tab.
 
-You should implement a **tabbed component** that looks similar to the Guardian’s most recent content widget. The component will be a numbered listing of the most recent Guardian content chosen from three sections of the site: UK news, Football and Travel. Each of these sections should be represented by a tab.
+You should fetch this data asynchronously from our [Content API](https://open-platform.theguardian.com/explore/). **Please do this on the client-side.** Your solution should run in the browser alone with no runtime server-side requirements (excluding any tooling needed to build your code).
 
-We’d like you to fetch this data asynchronously from our [Content API](https://open-platform.theguardian.com/explore/). Please do this on the client-side, your solution should run in the browser alone with no server-side requirements.
+## Considerations
 
-At the Guardian we try to build things to be lightweight, accessible, and usable across browsers, devices and network conditions. When working on your application you should therefore focus on:
+At the Guardian we try to build things to be lightweight, accessible, and usable across browsers, devices and network conditions. 
 
-- Keeping the application as lightweight as possible.
-- Making it work across a range of device sizes.
-- Using semantically correct HTML.
+During implemetation, please choose 2 or 3 of the below considerations to focus on. Let us know which ones you have chosen in your repo's README. We will discuss all 5 considerations at the review stage.
 
-### Optional requirements
+### Accessibility
 
-#### Accessibility
+A great deal of web content can be made accessible simply by using semantically correct HTML elements and role attributes. We'd like you to ensure the component is accessible for our readers that rely on screen reading technology or keyboard navigation to access our content.
 
-A great deal of web content can be made accessible just by making sure the correct HTML elements are used for the correct purpose at all times. We'd like you consider how the HTML can be used to ensure maximum accessibility for our user's that rely on screen reading technology and/or keyboard navigation to access our content.
+### Browser support
 
-#### Browser support
+Our site uses modern web standards to provide the best possible reading experience for our visitors. Although we aim to be readable on all possible devices and browsers, not all are capable of running the full set of features. We'd like you to make sure your application works on older browsers as well as the latest browsers. Our [recommended browser list](https://www.theguardian.com/help/recommended-browsers) states the browsers we currently support.
 
-Our site uses modern web standards to give the best possible reading experience for our visitors. Although we aim to be readable on all possible devices and browsers, not all are capable of running the full set of features. We'd like you to make sure your application works on older browsers as well as the latest browsers. Our [reccommended browser list](https://www.theguardian.com/help/recommended-browsers) states the browsers we currently support.
+### No JavaScript
 
-#### No JavaScript
+We can't assume our JavaScript will run for all our readers, for example some may not run Javascript for accessibility reasons and others may be accessing our site in constrained environments in which our JavaScript cannot run. We'd like you to make sure your application offers a meaningful experience when JavaScript is unavailable.
 
-We can't assume our JavaScript will run for all our users, for example some may not run Javascript for accessibility reasons and others may be accessing our site in constrained environments in which our JavaScript cannot run. We'd like you to make sure your application offers a meaningful experience when JavaScript is unavailable.
-
-#### Test coverage
+### Test coverage
 
 A good suite of tests for your code can give you and your colleagues confidence that no bugs have been introduced when refactoring or adding new features. We'd like you to write tests for your code that can be easily run by anyone working on it.
 
-#### Reusability
+### Reusability
 
-We'd like you to consider how your code could be recomposable into new solutions whilst retaining it's internal implementation details.
+We'd like you to consider how your code could be recomposable into new solutions whilst retaining its internal implementation details.
