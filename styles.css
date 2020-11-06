@@ -1,25 +1,69 @@
 body {
-    color: #000;
+  color: #000;
+}
+
+.tabs.popular-content-tabs {
+  width: 100%;
+  height: 450px;
 }
 
 .tab-panel-container {
-    padding: 10px 0;
-    max-width: 600px;
+  position: relative;
+  height: 90%;
+}
+
+.tabs__headers {
+  height: 10%;
+  display: flex;
+}
+
+.tabs ul {
+  margin: 0;
+  padding: 0;
 }
 
 .tab {
-    padding: 10px;
-    color: #000;
-    background-color: #ededed;
-    font-weight: bold;
-    text-decoration: none;
+  width: 12rem;
+  font-size: 1.25rem;
+  padding: 10px;
+  color: #000;
+  background-color: #ededed;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+}
+
+.tab.active {
+  background-color: #ffffff;
+}
+
+.tabs .popular-content-tabs > ul,
+li {
+  list-style-type: none;
+}
+
+.tab-panel-container .tabs__content-list.active {
+  z-index: 1;
 }
 
 .list-item {
-    padding: 10px 0;
-    border-top: 1px solid #ededed;
+  padding: 10px;
+  border-top: 1px solid #ededed;
 }
 
 .list-item span {
-    font-weight: bold;
+  font-weight: bold;
+}
+
+.tabs__content-list {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff;
+  overflow-y: scroll;
+}
+
+.tabs__content-list > li > a {
+  margin-left: 1rem;
+  text-decoration: none;
 }
